@@ -13,3 +13,5 @@ hs_err_pid*
 
 # NetBeans private configuration
 nbproject/private
+
+/bin/
