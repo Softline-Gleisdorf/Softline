@@ -1,3 +1,4 @@
+package core;
 
 /**
  * Represents core functionality used by all projects
