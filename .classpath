@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry kind="src" path="FriFro/src"/>
+	<classpathentry kind="src" path="Core/src"/>
+	<classpathentry kind="src" path="Fetter/src"/>
+	<classpathentry kind="src" path="Wws/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
