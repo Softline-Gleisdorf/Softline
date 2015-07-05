@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="FriFro/src"/>
-	<classpathentry kind="src" path="Core/src"/>
 	<classpathentry kind="src" path="Fetter/src"/>
+	<classpathentry kind="src" path="Core/src"/>
 	<classpathentry kind="src" path="Wws/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Core"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Fetter"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/FriFro"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Wws"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
