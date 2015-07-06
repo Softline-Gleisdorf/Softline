@@ -49,6 +49,7 @@ auxiliary.show.customizer.message=<message>
                 <action name="build">
                     <target>create</target>
                     <target>compile</target>
+                    <target>run</target>
                 </action>
                 <action name="clean">
                     <target>clean</target>
@@ -57,6 +58,7 @@ auxiliary.show.customizer.message=<message>
                     <target>clean</target>
                     <target>create</target>
                     <target>compile</target>
+                    <target>run</target>
                 </action>
             </ide-actions>
             <view>
