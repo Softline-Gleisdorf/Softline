@@ -1,20 +1,7 @@
 <?xml version="1.0"?>
 <project name="Softline" basedir="." default="jar">
-    <property name="src" value="src"/>
+    <property name="src" value="Core\src;Fetter\src;FriFro\src;Wws\src"/>
     <property name="output" value="bin"/>
-
-    <target name="compile" depends="create">
-        <javac destdir="bin">
-            <src path="${src}"/>
-        </javac>
-    </target>
-
-    <target name="jar" depends="compile">
-        <jar destfile="test.jar">
-            <fileset dir="bin"/>
-        </jar>
-    </target>
-
 
     <target name="clean">
         <delete dir="${output}"/>
@@ -22,6 +9,29 @@
 
     <target name="create" depends="clean">
         <mkdir dir="${output}"/>
+    </target>
+
+    <target name="copyResources" depends="create">
+        <copy todir="bin">
+            <fileset dir="FriFro\src">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy todir="bin">
+            <fileset dir="Fetter\src">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+
+    <target name="compile" depends="copyResources">
+        <javac destdir="bin">
+            <src path="${src}"/>
+        </javac>
+    </target>
+
+    <target name="run" depends="compile">
+        <java dir="bin" classname="core.Core"></java>
     </target>
 
 </project>
