@@ -1,0 +1,12 @@
+[submodule "Core"]
+	path = Core
+	url = https://github.com/Softline-Gleisdorf/Core.git
+[submodule "Wws"]
+	path = Wws
+	url = https://github.com/Softline-Gleisdorf/Wws.git
+[submodule "FriFro"]
+	path = FriFro
+	url = https://github.com/Softline-Gleisdorf/FriFro.git
+[submodule "Fetter"]
+	path = Fetter
+	url = https://github.com/Softline-Gleisdorf/Fetter.git
